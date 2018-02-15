@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+   <item android:title="item1"
+       android:id="@+id/item1"/>
+    <item android:title="item2"
+        android:id="@+id/item2"/>
+    <item android:title="item3"
+        android:id="@+id/item3"/>
+    <item android:title="item4"
+        android:id="@+id/item4"/>
+
+</group>
+    <item android:title="Select">
+        <menu>
+            <item android:title="item"
+                android:id="@+id/item"/>
+            <item android:title="item10"
+                android:id="@+id/item10"/>
+
+        </menu>
+
+
+
+    </item>
+</menu>
